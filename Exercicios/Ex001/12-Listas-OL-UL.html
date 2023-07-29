@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconehtml.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <p>Voltar ao <a href="13-Links.html" rel="prev">menu</a></p>
+    <h2>Listas ordenadas</h2>
+    <p>Aquelas em que a ordem faz diferença.</p>
+    <ol type="1" start="1"><!--Ordened list, numerica começando do 1(padrão)posso colocar em ordem alfabetica ou em numeros romanos.-->
+        <li>Acordar</li> <!--List item, a partir do HTML5 fechar é opcional, mas se fecho 1 devo fechar todos, padronizando.-->
+        <li>Tomar café</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul type="disc"> <!--Unordered list, tem 3 tipos, circle, disc(padrão) e square.-->
+        <li>Pão</li>
+        <li>Picles</li>
+        <li>Alface</li>
+    </ul> 
+
+    <h2>Misturando listas versão 1.0</h2>
+    <p>Minhas linguagens favoritas:</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Fortran</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="3"> <!--O start só aceita numero, nesse caso deveria começar do 1 mesmo.-->
+            <li>PHP</li>
+            <li>Python</li>
+        </ol>
+    </ol>
+
+    <p>Meus consoles favoritos e jogos que joguei neles:</p>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>mario</li>
+            <ul type="disc">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>ninja gaiden</li>
+        </ul>
+        <!--Segurar alt e ir clicando é como se clonasse o cursos e selecionasse varios lugares.-->
+        <li>SNES</li>
+        <ul type="square">
+            <li>mario</li>
+            <li>donkey kong</li>
+        </ul>
+
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+        </ul>
+    </ol>
+
+
+    <h2>Listas de definição</h2>
+    <dl><!--Definition list, é tipo um dicionario.-->
+        <dt>HTML</dt><!--Termo-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd><!--Descrição-->
+    </dl>
+    <!--Nos ajuda muito com mecanismos de busca, quando alguem pesquisa a definição de HTML o google pesquisa e da valor para os sites que tem lista de definições em seu interior.-->
+
+</body>
+</html>

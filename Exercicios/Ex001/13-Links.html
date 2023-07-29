@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconehtml.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    
+    <h1>Usando links</h1>
+    <h2>Externos:</h2>
+    <p>Você pode acessar seu <a href="https://github.com/Gustav0Felipe" target="_blank" rel="external">repositorio publico no github</a></p><!--Referencia hipertexto, alvo janela em branco, vai abrir nova abra para abrir o link, sem fechar a atual, rel diz que é um link externo.-->
+
+    <!--Quando o redirecionamento é pra fora do meu site devo fazer em uma aba nova com blank e indicar que é um link externo, se for no meu proprio site não abro uma aba nova.-->
+
+    <h2>Internos:</h2>
+    <p>Conteudo de <a href="12-Listas-OL-UL.html" rel="next" target="_self">listas</a></p> 
+    <!--Para funcionar deste jeito ambas as paginas devem estar na mesma pasta.-->
+    <!--Com isso o mecanismo de busca consegue saber qual o sistema de navegação que criei para meu site, assim o google não decide qual é a proxima pagina, eu aviso qual é para ele, tem uma semantica envolvida onde dou valor a este link.-->
+
+    <!--Caso o link seja de um patrocinador existe o rel nofollow, para que o mecanismo de busca não vá até lá, eu não dou um aval para este link, e existe o dofollow, talvez isso associe a busca, e buscar seu site mostre a pagina do patrocinador ou vice e versa.-->
+
+    <p>Pagina interna mas em outra <a href="Teste/PaginaTeste.html" rel="next" target="_self">pasta</a></p>
+    <!--Target por padrão já é self.-->
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="Teste/teste.pdf" download="teste.pdf" type="application/pdf"> uma pagina.</a></li>
+    </ul>
+</body>
+</html>

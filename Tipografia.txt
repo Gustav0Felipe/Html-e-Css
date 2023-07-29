@@ -1,0 +1,78 @@
+Em um site é normal usar 3 ou 4 fontes diferentes, não muito mais do que isso.
+
+Devo saber as medidas para ver se a fonte se encaixa simetricamente no que quero fazer, a letra x é o ponto de partida
+para fazer qualquer fonte, pois existe uma metrica chamada altura x, que define a base para todas as letras minusculas
+
+tem tambem a altura das letras maiusculas
+e a altura do ascendente, que é a altura do que vazou para cima, o que vazou para baixo é descendente, 
+e a altura total é chamada de corpo.
+
+tudo isso são itens métricos, todos os outros itens são itens anatomicos, que nem todas as fontes terão todos os itens
+anatomicos existentes, os itens anatomicos são:
+
+serfa - alongamento na letra, um pequeno traço nas pontas das letras, sua importancia é criar uma linha imaginaria que nosso
+cerebro percebe sem necessariamente perceber a serifa, e nosso olho sera guiado pela "linha" tornando mais facil a leitura.
+
+haste - o traço da letra que percorre ela como um todo
+filete - une duas hastes, como na letra A, a ponte no meio que conecta as duas hastes é chamada de filete, une duas hastes
+ou uma ou mais hastes e arcos.
+arco - curva para cima,
+esporao - pequena saliencia na letra que serve como base, para que a letra não pareça solta e prestes a cair 
+vertice - saliencia triangular, como a ponta de cima do A ou a de baixo do V.
+terminal - um elemento não preso a lugar nenhum, como a sobra do r
+braço - sai de uma haste e se eleva para cima
+perna - elemento que sai de uma haste ou braço e vai para baixo.
+pé - se existir serifas elas estarão no pé
+espinha - curva como a que tem no meio do S
+barriga - quando dois arcos se juntam 
+olho - parte do meio de uma letra, onde tem um buraco fechado ao redor
+orelha - base na parte de cima como em g, as vezes aparece
+cauda - parte de baixo descendente onde fica uma sobra, como em g
+
+cada letra pode ser considerara um glifo de uma fonte, o conjunto de todos esses glifos de uma determinada familia é chamado de
+fonte, fonte tambem pode ser o arquivo que você baixa para poder usar essa letra.
+
+algumas fontes tem varias formas de representar o mesmo grifo como a open sans, que chamamos de familia tipografica
+onde cada formato ainda é open sans, como o open sans light, o normal, o seminegrito, o negrito e o extranegrito.
+nem toda fonta tem familia tipografica, as x só tem um tipo de fonte, o google chama isso de variações, geralmente toda fonte
+tem normal e negrito, embora algumas nem tenham negrito.
+
+Categoria de Fontes, na hora de escolher a fonte escolho por ela.
+fontes serifadas são as que tem serifa
+fontes sans-serif são as que não possuem serifa
+fontes monoespaçadas podem ter ou não serifa, nela todas as letras tem exatamente a mesma largura, oculpam a mesma quantia de 
+espaço
+handwriting fonte de script/escriptada, são fontes que tentam simular a caligrafia humana, para dar sensação de feito a mão.
+display são fontes comemorativas, não tem nenhuma das caracteristicas de cima, ou não se preoculpa em obedecer a essas regras
+anatomicas, geralmente fontes que te levam a alguma ideia como um filme, á essa categoria de fonte se adicionam fontes goticas
+antigas, algumas que nem tem letras como a webdings que tem bandeiras e animais.  
+hoje em dia a recomendação para textos muito longos em tela é dar preferencia a fontes não serifadas, é mais claro ler em telas
+sem a serifa
+
+tamanho de fonte, seguir as recomendações da w3c, que é o principal orgão nesse quesito
+
+
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+A apresentação pode ser diferente por conta do tamanho da tela, ponto é paica não é recomendado usar em tela, são medidas da tipografia, de papel.
+
+
+Medidas Relativas
+em, ex, rem, vw, vh
+
+em, relativo ao m maiusculo de uma fonte ou ao tamanho atual da fonte
+ex, relativo a altura x de uma fonte
+rem, relativo ao root, a fonte configurada no body
+vw, view width, largura da viewport em %, relacionado ao tamanho de tela
+vh, altura da viewport, posso trabalhar tambem em %
+
+o tamanho normal das fontes são 16px
+1 em equivale ao tamanho normal da letra, se eu colocar 2em o tamanho da letra dobra, provavelmente sendo igual a 32px
+Para font-size a w3c recomenda o uso do px e do em, melhor usar o em, que usa % , alem do que tem telas que usam pixel
+duplo ou pixel quadruplo que dá uma leve diferença no meu site.
+
+peso da fonte - fazer ela ficar mais magra ou mais grossa, o tamanho(size) dela em si não aumenta.
+para ver o peso da fonte não devo usar fontes simples, pois só tem 1 peso, ou é magra ou é grossa.
+
+google fonts é um repositorio gratuito de fontes.
+

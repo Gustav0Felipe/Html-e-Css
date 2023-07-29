@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontem em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*font-family: 'courier new'; teria que colocar entre aspas pois são 2 palavras, nem todo computador vai ter arial*/
+            /*Fontes muito usadas são verdana, arial e helvetica*/
+            /*Devo usar fontes que tenham em todos os dispositivos*/
+            /*Do modo que coloquei primeiro ele tenta colocar arial, se não tiver tenta a helvetica, se não tiver coloca qualquer sans serif que tiver(todo dispositivo vai ter ao menos uma), o nome disso é CSS Web safe font combinations, posso aprender sobre no w3schools*/
+            /*Posso colocar font-family sans-serif sem dizer qual fonte, apenas digo que quero sem serifa, e o dispositivo vai escolher qual ele vai colocar, qual é a padrão dele, sempre devo terminar minha declaração segura com um nome generico*/
+        }
+        h1, h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam repudiandae inventore recusandae consectetur sequi fugiat rem similique perspiciatis itaque atque numquam unde quidem ratione consequuntur eaque, ipsam laudantium possimus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ex, quaerat ipsum qui ab doloremque dolore adipisci quis facilis eos.</p>
+
+    <h2>Sub-titulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate cumque dolorem hic ab et aperiam magni. Ullam at corrupti, dicta, reiciendis unde reprehenderit maxime cupiditate maiores consectetur, quaerat ad.</p>
+</body>
+</html>

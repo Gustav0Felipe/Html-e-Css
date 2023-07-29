@@ -1,0 +1,129 @@
+Diferença entre HTML, CSS e JavaScript:
+
+como funciona a HTML(feminino por que é A linguagem de marcação) e as CSS(as folhas de estilo):
+
+nenhuma delas é efetivamente uma linguagem de progamação, não da pra dizer que você programa em html e css, você DESENVOLVE em html e css.
+
+HypertextMarkupLanguage 
+Linguagem de Marcação de hipertexto
+
+Hypertext = hipertexto é quando tenho um texto com uma area que posso clicar que me leva a outra area.
+markup é de marcas, fundamentada em marcas, não possui condições, vetores e afins.
+
+CascadeStyleSheets
+Folhas de Estilo em Cascata
+
+Cascade = uma vai modificar a caracteristica padrão da outra, por isso é em cascata, os seletores vão mudando em cascata as caracteristicas, e eles já tem algumas
+caracteristicas já herdadas, e em cascata vão adicionando mais.
+
+
+A html é focada em conteudo, fotos, textos, imagens, videos, tabelas, listas e afins.
+As css são focadas em desin, cores, posição, tamanho da imagem, texto escrito por cima da imagem, sombras e afins.
+JavaScript é interatividade, como passar o mouse por cima de 3 pontinhos e abrir um menu, animações, popups, validações.
+
+Tag em html = tudo colocado entre <> (colchete angular) em html são tags.
+
+<h1> = abertura de tag de titulo.
+</h1> = fechamento de tag de titulo.
+<p> = paragrafo, posso ter parametro e valor nele tambem mas é menos usual.
+
+<img src = "foto.png" alt="Exemplo de foto"> = abrir foto, não tem fechamento de tag, src e alt são parametros e o que tem neles são seus valores.
+src = fonte.
+alt = texto alternativo, se não conseguir mostrar a imagem mostro Exemplo de foto.
+
+
+Css dentro de uma tag Style de html, e ultiliza seletores:
+
+isso é um seletor
+h1{
+	font-family:Arial;  isso é uma declaração
+	font-size:20pt;  pt significa pontos, px pixels, e toda declaração em css tem que ter ; no final.
+	color:blue; 
+	color é uma propriedade, blue é seu valor, cada declaração é um par composto de ambos.
+}
+
+Estrutura basica de umd ocumento HTML:
+<!DOCTYPE html>  = digo ao navegador que eu vou desenvolver um site em html5.
+
+<html lang="pt-br"> = o site vai ser construido com seu conteudo em pt-br, é por ela que o google vai saber e te perguntar se quer traduzir este site.
+
+	<head>  = area de configurações.
+
+		<meta charset="UTF-8"> = o meu site vai ser compativel com caracteres de utf-8, vai me dar compatibilidade com acentuações, como ç, ã, á.
+		
+		<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> o site vai oculpar 100% da parte branca do site e vai abrir em 100% a escala, sem zoom.		
+
+		<title>Document</title> = titulo do site, aparece na aba.
+
+	</head>
+
+	<body> = area de corpo, onde fica o site, todo dentro do body.
+
+		<h1> Olá, Mundo! </h1>
+
+	</body>
+
+</html>
+
+
+Como funciona html e css?:
+
+quando você entra em um site, o seu navegador pega a url que você forneceu, vai no dns, pega o ip para acessar o servidor do site, acha o html e o css daquele site, nos trás
+uma copia deles, lê os codigos linha a linha e nos gera um resultado visual da analise desse codigo diretamente no nosso computador e mostrando na tela.
+
+quando o mesmo site é entregue a todos os clientes o chamamos de site estatico.
+html, css e javascript funcionam do lado do cliente(client-side), qualquer navegador é capaz de executar as 3 tecnologias.
+em tecnologia client-side o papel do servidor é só entregar a tecnologia, o navegador é responsavel por executar tudo isso.
+front-end é o desenvolvedor do lado do cliente.
+
+front-end conhecimentos desejaveis em imagens, photoshop, ghimp, cores.
+dar uma boa experiencia ao usuario, conhecer algo de user experience apesar dele não ser o especialista nisso.
+
+back-end é o desenvolvedor do lado do servidor, interessado na interação de seu codigo com o servidor e as tecnologias envolvidas na tecnologia de server-side.
+linguagem php, js node, java, python.
+
+front-end e back-end se unem em alguns pontos pois vão fazer ligação.
+
+um site não pode ser estatico quando eu precisar colocar informações nele, como mudar os produtos em estoque de uma loja, pois ai precisaria mexer no codigo toda vez que fosse
+fazer mudanças, então não da pra fazer uma loja usando só tecnologia client-side.
+
+hoje em dia informações como essas estariam armazenadas em um banco de dados do lado do servidor, quando envolvemos o server-side no site, o cliente faz uma solicitação pro
+servidor, no servidor a linguagem php faz requisições para o banco de dados, como quais camisetas tem que aparecer em destaque, vai obter essas informações, vai gerar uma 
+pagina html com essas informações e vai enviar este html junto com o css e javascript para o cliente, e com essas informações especialmente produzidas pelo php no servidor
+o site vai mostrar as camisetas em destaque que estão no banco de dados.
+
+
+full-stack é quem desenvolve em ambos os ambientes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

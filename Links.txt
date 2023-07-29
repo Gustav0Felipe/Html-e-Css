@@ -1,0 +1,16 @@
+O ponto clicavel chamamos de ancora, todo hiperlink é construido atráves de uma ancora, links são a ligação entre uma pagina e 
+outra.
+
+O google é o mecanismo de busca mais usado no mundo.
+Ao ter um site é recomendavel ter um canal no youtube, já que lá é o segundo maior mecanismo de busca.
+
+Como o google funciona, seu algoritmo para encontrar e indexar sites, procurar por seo, otimização para mecanismos de busca 
+como o google te encontrarem, ver video do matt cutt sobre algoritmo do google, que é baseado em links.
+
+./ significa a propria pasta
+../ é a pasta anterior
+
+para links de download uso
+<a href="Teste/teste.pdf" target="_blank" type="application/pdf"> uma pagina.</a>
+para saber o que colocar no type acesso o site iana.org/assignments/media-types.xhtml
+o _blank o navegador vai reconhecer que é pdf e perguntar se quer baixar.

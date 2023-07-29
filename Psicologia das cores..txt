@@ -1,0 +1,63 @@
+O conjunto de cores de um site e sua harmonia visual nos faz decidir se vamos acessar ou não o site, se vamos consumir seu 
+conteudo ou não, e % de poder que as cores tem chega em algumas pesquisas á 90%.
+
+Fundo preto e letra branca, esse tipo de contraste é mais cansativo de ler, devo usar para partes/paginas com pouco conteudo á
+ser lido.
+
+Toda cor é formada por um conjunto de combinações de vermelho verde e azul
+Você pode representar as cores em html usando códigos hexadecimais.
+Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+#0000ff
+00 de vermelho
+00 de verde
+ff de azul, o maximo de azul
+
+Modo de cores:
+RGB - Red green blue, para monitores
+CMYK - Ciano Magenta Amarelo e Preto(key), para impressoras.
+HSV - Hill, Saturation, Value.
+
+Circulo Cromático:
+
+Cores primarias dentro do circulo cromatico: amarelo, vermelho e azul
+Cores secundarias dentro do circulo cromatico: laranja, verde e violeta
+Terciarias são todas as outras que são misturas das duas de cima, seus nomes tem o nome da cor primaria antes e depois o da
+secundaria, toda cor terciaria esta entre uma secundaria e uma primaria, como amarelo-esverdeado.
+Os tons pasteis não são exatamente as cores terciarias mas elas tem um tom pastel.
+
+se voce dividir o circulo ao meio entre o vermelho-arroxeado e o amarelo esverdeado voce consegue distinguir a temperatura das
+cores, a direita são cores quentes(amarelo, laranja, vermelho e afins...), e a esquerda são cores frias, para coisas frias voce
+usa o lado frio, para representar algo que tenha haver com algo mais quente use cores quentes. 
+
+uma paleta de cores tem de geralmente 3 a 5 cores no maximo, desconsiderando branco e preto que sempre vai ter no seu site, já 
+que é muito usado o fundo branco letra preta.
+
+no site de um cliente geralmente uso  a cor primaria da logo da marca do cliente.
+
+o que são cores complementares? cores que tem mais contraste entre si, nesse caso ao ver o circulo cromatico a cor que mais 
+contrasta com outra é aquela que estiver no extremo oposto dela no circulo cromatico, se eu não colocar contraste nas cores
+e tentar usar um fundo e uma letra de cores com pouco contraste fica dificil de ler.
+
+cores analogas são cores que não tem tanto contraste entre ela mas são perceptiveis, no circulo cromatico seria as cores
+imediatamente ao lado da cor que escolhi, possuem similaridade, são suaves sem contraste, são harmonicas.
+
+uma tecnica muito ultilizada é pegar cores analogas e uma complementar.
+
+cores análogas relacionadas, as analogas geralmente criam um certo degrade, se eu pegar analogas e uma complementar eu tenho
+um contraste um tanto forte, já as analogas relacionadas eu pego uma cor, e ao inves de pegar as duas do lado, pego uma do lado
+e a outra eu pego do outro lado mas pulando 1 cor, que é similar a cor que peguei, mas com um leve contraste. 
+
+cores intercaladas eu pego uma, e ao ir pegar a do lado eu pulo 1 cor, e ao ir mais uma vez pro mesmo lado pulo 1 denovo, 
+é uma paleta um pouco mais dura e menos usada
+
+3 tipos de cores intercaladas:
+
+* cores triadicas, onde voce escolhe uma cor, gira em um sentido pulando 3 e escolhe outra, gira novamente pulando 3 no mesmo 
+sentido e pega outra cor
+
+* cores em quadrado é uma triadica pulando 2 cores, e pegando ao todo 4 cores, usando cores fortes e bem balanceadas.
+
+* cores tetrádicas, pego duas cores e seus complementares
+
+monocromia, é trabalhar com 1 cor só, eu pego uma cor e modifico dela duas caracteristicas, a saturação e o brilho(luminosidade)
+cria um efeito genericamente chamado de degrade, usado principalmente pra fundo.

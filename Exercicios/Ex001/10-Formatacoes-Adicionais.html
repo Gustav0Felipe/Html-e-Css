@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconehtml.ico" type="image/x-icon">
+    <title>Formatação de texto.</title>
+</head>
+<body>
+    <h1>Principais formatações:</h1>
+
+
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; isso é feito de uma forma não semantica, já que eu formatei diretamente no HTML5.</p>
+    <p>E nessa frase, tenho um <strong>Termo em destaque</strong> usando a tag STRONG, é semantica, pois serve para dar destaque.</p>
+
+    <h2>Italico / Enfase</h2>
+    <p>Nesta frase, temos um <i>termo em italico</i> usando a tag I (não semantica)</p>
+    <p>E nessa temos um <em>termo em ênfase</em> usando a tag &lt;EM&gt; (semantica).</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar tambem <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK, que não é reconhecida pelo vscode.</p>
+    <!--Não tem em html maneira de mudar a cor do mark, pois é forma, então temos de usar CSS.-->
+    <p>Outro <mark>texto marcado</mark>, para mostrar que o de cima tera cor diferente,
+    para mudar a cor de todos os marks devo colocar a tag style dentro do head, e criar um seletor para mark, embora o style no head não funcione para outras paginas, para isso posso usar um link externo.</p>    
+
+    <h2>Texto grande  e pequeno</h2>
+    <p><big>Texto grande</big> e <small>texto pequeno.</small></p>
+    <!--Por que apenas o big é obsoleto? por que big significa apenas que eu quero que a letra esteja maior, mas a tag por si propria não tem nenhum sentido/significado, é apenas formatação, porem letras pequenas tem significado, já que em contratos tem "leia as letras pequenas, é uma tag que serve para apontar que o que eu escrevi é considerado letra pequena, não que quero apenas diminuir a fonte, não é formatação."-->
+    <!--Por este motivo o big é obsoleto e devo usar CSS para aumentar a fonte, e o small é usado no html pois serve para dar significado ao que eu escrevi.-->
+    <!--Ou tambem, o small pode significar que o texto é algo mais secundario mas que tambem deve ser lido.-->
+
+    <h2>Texto deletado</h2>
+    <p>Marcar um texto como <del>excluido</del> para indicar que ele deve ser lido mas não considerado</p>
+    
+    <h2>Texto inserido</h2>
+    <p>Usado para dar ênfase e indicar que o <ins>texto</ins> foi adicionado depois</p>
+    <p>Existe tambem o <u>sublinhado</u> com a tag &lt;u&gt; que não é semantico, é formatação e uma tag obsoleta.</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>2</sup>+3</p>
+
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+</body>
+</html>

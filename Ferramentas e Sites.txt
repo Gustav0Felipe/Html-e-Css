@@ -1,0 +1,32 @@
+Gimp ferramenta para edição de imagem, mais limitado do que o photoshop porem gratuito, posso usar para redimensionar imagens 
+e assim diminuir o tamanho delas.
+
+Handbrake ferramenta para conversão de videos, posso usar ela para mudar o formato de um video para ter um mesmo video em varios
+formatos e adquirir compatibilidade com sites como youtube e vimeo, tambem diminue o tamanho do video para ser menos pesado 
+
+Web Developer é uma extensão google que me permite desativar o CSS ou JavaScript de um site.
+
+ColorZilla é uma extensão que me deixa usar um conta-gotas no meu navegador, para pegar a cor de qualquer parte de um site.
+
+
+Site Color adobe posso usar para fazer a minha paleta de cores
+Tem recursos como extrair tema onde posso jogar uma logo e pegar a paleta de cores dela
+Extrair gradiente extrai um degrade do arquivo que coloquei
+
+Site Paletton tambem é um site para fazer paleta de cores, nele posso ver um preview de como ficaria um site usando a paleta de
+cores que montei.
+
+Coolor, site que dá diversas sugestões de paletas e me permite ir escolhendo entre elas.
+
+Google Fonts, site repositório de fontes gratuitas, dar preferencia a ele ao inves de baixar fontes, mais leve, mais smart e
+padronizado, e nada impede misturar as tecnicas.
+
+Dafont.com site para pegar fontes externas, gratuito.
+
+Fonts ninja, usado para capturar fontes de um site que estou visitando.
+
+Sites para identificar fontes de uma imagem:
+what font is, font squirrel e my fonts
+what font is - O com maior inteligencia, o recomendado a se usar primeiro pois geralmente tem os melhores resultados.
+font squirrel - aba font identifier, um pouco menos preciso que o what font is
+MyFonts

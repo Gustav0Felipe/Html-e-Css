@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontem em CSS</title>
+    <style>
+      
+        body{
+            font-family: 'Work Sans', Helvetica, sans-serif;
+            font-size: 16px ;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+            /*
+            Peso da fonte
+            
+            lighter normal bold bolder
+            algumas fontes aceitam esses pesos
+
+            alem do nome existe variação numerica
+            indo de 100 a 900, pulando de 100 em 100, a maioria das fontes não tem todas as variações, 100 seria o mais leve, 400 seria o normal, com isso você consegue uma maior nuance
+            */
+
+            /*font-style tambem não é toda fonte que tem todas as variações, a grande maioria não as tem*/
+
+            /*É comum usar as 4 declarações, posso simplificar todas elas em uma shorthand
+            Shorthand font segue a ordem:
+
+            font-style -> font-weight -> font-size -> font-family
+            */
+        }
+        h1{
+            font: italic bolder 3em 'Work Sans', sans-serif;
+            /*ShortHand Font, propriedade shorthand, existem varios tipos de shorthand embora não pra tudo.*/
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+            /*Posso escolher o que quero colocar, embora a ordem seja imutavel*/
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam repudiandae inventore recusandae consectetur sequi fugiat rem similique perspiciatis itaque atque numquam unde quidem ratione consequuntur eaque, ipsam laudantium possimus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro ex, quaerat ipsum qui ab doloremque dolore adipisci quis facilis eos.</p>
+
+    <h2>Sub-titulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate cumque dolorem hic ab et aperiam magni. Ullam at corrupti, dicta, reiciendis unde reprehenderit maxime cupiditate maiores consectetur, quaerat ad.</p>
+</body>
+</html>

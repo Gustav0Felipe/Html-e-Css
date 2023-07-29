@@ -1,0 +1,11 @@
+Quanto maior o arquivo mais dificil é carregar e colocar na internet. 
+
+o jpeg compacta imagens e as torna menor, identificando que se uma pulseira é verde, 
+de um lado ao outro ou do ponto 0.0 ao 0.20 é verde. 
+
+formato gif é imagem horrorosa com transparencia e animação
+
+o png é compactado e permite transparecia, não tem animação.
+
+se quero colocar uma imagem no fundo da tela bem grande posso usar jpeg, mas se quiser uma imagem flutuando e com o fundo
+transparente devo usar png.

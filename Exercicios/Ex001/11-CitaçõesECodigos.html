@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citações, codigos e outras formatações.</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2><!--É o codigo, são comandos / partes de codigo.-->
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <!--Todas as letras vão ter o mesmo espaçamento usando o code, chamamos isso de fonte mono-espaçada que é o otima para ler codigos.-->
+    <pre>
+        <code>
+    num = int(input("digite um numero: "))
+    if num % 2 == 0;
+        print(f'O numero {num} é par)
+    else
+        print(f'O numero {num} é impar)
+    print('Fim do programa')
+    <!--O code não coloca identação-->
+        </code>
+    </pre> <!--Pre serve para considerar espaços, quebras de linha, tabulações.-->
+
+    <h2>Citações</h2>
+    <p>Já dizia lorem<q> Lorem ipsum dolor sit amet consectetur adipisicing elit.</q></p>
+    <!--A tag q significa quote, dá a mensagem o sentido / significado de uma citação, aponta que é uma citação, se eu apenas colocar aspas seria forma não semantica.-->
+
+    <h2>Citações completas</h2>
+    <p>Segundo karina</p>
+    <a href="https://www.wikipedia.org"><blockquote cite="www.wikipedia.org">é Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis quasi praesentium sapiente id fugiat, dolor harum suscipit? Necessitatibus maxime tenetur itaque numquam aspernatur illo dolore molestiae soluta velit perspiciatis?</blockquote></a>
+    <!--O link não vai aparecer, mas a parte interna do meu site vai saber de onde essa citação veio, os mecanismos de busca tambem.-->
+    <!--Usando a tag A o texto vai redirecionar para o link, se eu não colocar o https, ele vai tentar redirecionar para um arquivo dentro da pasta, posso assim criar paginas no meu site.-->
+
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+    <!--Ao passar o mouse por cima posso ver qual a palavra que foi abreviada, isso tambem diz o mesmo aos mecanismos de busca e visitantes-->
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">estou aprendendo a criar coisas em HTML</bdo></p>
+    
+    <!--Posso escolher entre Right to Left e Left to Right-->
+
+</body>
+</html>

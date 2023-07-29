@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontem com Google Fonts</title>
+    <style>
+        @font-face {
+            font-family: 'NomeFeitoPorMim';
+            src: url('Mars Brands.ttf') format('opentype'); /*Entre otf e ttf tem navegadores que funcionam melhor com 1 deles ou com o outro, se eu quiser mais uma fonte, depois do ulr(), eu coloco virgula e abro outra url().*/
+            font-weight: normal;
+            font-style: normal;
+            /*Digo que a fonte funciona melhor no normal, porem isso não significa que é o padrão dela, o padrão é negrito e se eu quiser que não seja tenho que mudar no seletor da tag.*/
+        }
+        /*
+        Tipos de format()
+        - opentype (otf) 
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Tipography)
+        - svg
+        bom colocar tanto otf quanto ttf, que funciona em todos os navegadores*/
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1{
+            font-family: 'Kaushan Script', cursive;
+        }
+        h2{
+            font-family: 'NomeFeitoPorMim';
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Titulo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid nobis hic nemo corporis accusamus porro reprehenderit asperiores et, dolor eligendi excepturi delectus eum accusantium, pariatur rem omnis, repudiandae veniam atque?</p>
+
+    <h2>Teste Fonte Externa</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quis quae fuga saepe voluptatum fugiat dolorem praesentium officia placeat eaque debitis veniam, aperiam, consequatur, impedit ad dolores laboriosam explicabo esse.</p>
+
+</body>
+</html>

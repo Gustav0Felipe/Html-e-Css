@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none; /*tirei o sublinhado*/
+        } 
+        a:visited{ /*Se o link já foi visitado antes, ficara com a cor darkred, o padrão é o link normalmente ser azul e se já foi visitado fica roxo*/
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{ /*Active é quando clicar, nesse caso se eu clicar ele fica amarelo, segurando clique posso ver isso mais claramente.*/
+            color: yellow;
+        }
+        a::after{ /*Pseudo elemento, ::, pseudo classe, :*/
+            content: ' [link]';
+            text-decoration: none;
+            color: darkgray;
+            font-weight: normal;
+        }
+        .especial{
+            background-color: darkred;
+            color: white;
+        }
+        .especial::before{
+            content:  ' ->';
+            color: red;
+        }
+        .especial::after{
+            content: ' <-';
+            color: red;
+        }
+        .especial:visited{ /*Links especiais vão ficar azuis quando visitados ao invés de darkred.*/
+            color: blue;
+        }
+       .especial:visited:hover{ /*A ordem importa, se eu colocar o hover em cima, quando ficar visited e eu passar o mouse não vai ficar preto, eu teria então que colocar .especial:visited:hover*/
+            color: black;
+        }
+        .especial:hover::after{
+            content: ' Especial';
+            color: white;
+        }
+      
+        /*
+        #  = id
+        .  = class
+        :  = pseudoclass
+        :: = pseudo
+        >  = children
+        */
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" class="especial"> Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Curso Em Video</a> </li>
+        <li><a href="https://facebook.com" class="especial"> Facebook</a></li>
+    </ul>
+</body>
+</html>

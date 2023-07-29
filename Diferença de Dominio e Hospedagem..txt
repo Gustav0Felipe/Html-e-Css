@@ -1,0 +1,50 @@
+Servidor DNS = quando voce digitar para ir ao site instagram.com, sua solicitação vai ir pro dns, que vai pegar o nome 
+instagram.com e ver qual ip corresponde a esse nome, então ira te conectar ao servidor que possui esse ip, já que ip é algo que
+muda constantemente, é o numero do servidor.
+
+Internet = Amontoado de redes
+
+World Wide Web (www) = SubRede da internet que lida com protocolos http e html
+
+Quando os arquivos e afins que quero acessar estão todos no meu computador, consigo ter total acesso a eles sem problemas, mas
+como fazer para que outros clientes tenham acesso?, mesmo que eu de o ip a eles eles não terão acesso pois a minha maquina 
+não é um servidor, e tambem não tenho um endereço fisico para acessar o dns, não temos uma url.
+
+só vai funcionar se estiver no servidor, preciso ter um endereço como gustavo.github.io que é uma url, a url é a ponte que vai 
+dar acesso ao dns e o dns vai me dar um ip do servidor que me dara acesso ao servidor.
+
+para dar endereços a outras pessoas para acessarem meu site preciso de um dominio, e de um lugar para guardar estes arquivos
+(um servidor), no caso de cima o dominio é a penas a parte github.io da url.
+
+este lugar para guardar se chama hospedagem.
+
+Dominio é o nome que identifica meu site. //nome unico, não pode existir 2 dominios com nomes iguais.
+Hospedagem é o local onde meu site estara armazenado.
+
+Dominios são pagos anualmente, media de 30 a 50 reais por ano, devo escolher um tlds, (top level domains, existem 2 tipos 
+pode ser um gtld ou um cctld).
+
+Hospedagem é um espaço para armazenar meus arquivos, pago mensalmente, a qualidade obviamente varia com o preço, você escolhe
+por espaço, memoria, disco, recursos se tem email se tem banco de dados se suporta php, ruby ou python por exemplo.
+devo tomar muito mais cuidado ao escolher uma hospedagem do que um dominio.
+
+www.github.com/Gustav0Felipe = uma url simples.
+url = uniform resource locator = localizador de recurso unico ou uniforme, só serve para apontar para um lugar, você coloca ele
+ele pesquisa no dns antes e então te leva ao lugar e pagina que você quer.
+
+github.com é o dominio
+.com é o tld
+.com, .net, .io, .edu, é o que chamamos de gtld, generic tld, uma tld generica.
+.com.br é uma cctld, country code tld, pois termina com 2 letras que identificam pais.
+www é um subdominio, é o principal do seu servidor web, porem vc pode ter outros, sites que não tem www tem outro nome na 
+frente, e são outros subdominios do github.com por exemplo. 
+/Gustav0Felipe é o caminho que quero percorrer, geralmente depois do tld.
+
+tudo isso chamamos de url, www.github.com/Gustav0Felipe
+
+gustavofelipe.github.io
+tem subdominio gustavofelipe dominio github.io e gtld dentro do dominio é .io.
+
+https://github.com
+https é o protocolo, no caso o http com segurança, que usa ssl, tem um cadeadinho do lado afirmando segurança no site.
+se tiver algo como /pesquisar%20filme o %20 é um espaçamento.

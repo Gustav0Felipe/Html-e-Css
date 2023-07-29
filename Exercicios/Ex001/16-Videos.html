@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconehtml.ico" type="image/x-icon">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Hospedando videos hospedados localmente</h1>
+    <p>Este video esta hospedado em meu proprio servidor:</p>
+    
+    <video src="Multimidia/Video-Arco-HB.mp4" width="500"  controls></video>
+
+    <video width="500" height="300" poster="Multimidia/foto-p.png" controls>
+        <source src="Multimidia/Video-Arco-HB.mp4" type="video/mp4">
+        <source src="Multimidia/video-arco.mp4" type="video/mp4">
+        <p>Seu navegador não reproduz video.</p>
+        <!--Videos hospedados usando a tag videos podem e vão consumir muito trafego de dados.-->
+    </video>
+
+    <h1>Inserindo videos do youtube.</h1>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/1ZeettFfxys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

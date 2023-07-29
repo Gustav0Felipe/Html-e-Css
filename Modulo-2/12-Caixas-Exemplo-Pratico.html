@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{
+            background-color: lightsteelblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgray;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px; 
+            padding-left: 10px;
+            /*Recomendado colocar o padding e margin nessa ordem, cima, direita, baixo e esquerda.*/
+            
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 260px; 
+            margin-left: 20px;
+            
+            margin: auto; 
+            /*Centraliza uma caixa, se for um texto uso text-align-center, porem é um shorthand, então vai reconfigurar toda a margem, e o que é lido por ultimo é o que fica, se eu colocar isso em cima não funciona, o normal seria colocar manualmente o valor auto na margem direita e esquerda.*/
+
+            outline-width: 2px;
+            outline-style: dashed;
+            outline-color: salmon;
+            /*Mesmo estando dentro dela o outline não aumenta a margem.*/
+
+            /*display: inline; transformar em um elemento inline, em elementos inline não posso colocar largura e altura, embora possa adicionar bordas e afins.*/
+
+           
+        }
+        a{
+            border-width: 10px;
+            border-style: solid; /*dashed = tracejado, dotted = pontilhado, double = linha dupla, groove = 3D*/
+            border-color: aqua;
+            
+            /*Shorthands de border, padding, margin e shortline.*/
+
+            border: 5px solid darkblue;
+
+            padding: 10px 10px 10px 10px;
+            /*
+            Se eu informar apenas padding: 10px; vai dar certo, pois quero o mesmo valor em todos os 4 lados.
+            se eu colocar 10px 20px, em cima e embaixo vai ter 10, nos lados vai ter 20.*/
+
+            margin: 40px auto 40px auto;
+            /*Centraliza esquerda e direita*/
+
+            outline: 2px dashed salmon;
+            /*Muito pouco usado*/ 
+            
+            /*display inline-block, continua sendo inline mas posso adicionar caracteristicar de bloco, como altura e largura.*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Paragrafos tambem são exemplos de box-leve, mas os <a href="#">links</a> são são exemplos de caixas inline-level, vamos ver como tudo isso funciona</p>
+</body>
+</html>
+<!--
+User agent é o navegador
+display: block; significa que o elemento vai ser do tipo box-level
+display: inline-block;
+
+
+-->

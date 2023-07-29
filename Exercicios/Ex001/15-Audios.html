@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/iconehtml.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Reproduzindo Audio</h1>
+    <p>Reproduzir audios em html5</p>
+    <audio src="Multimidia/happy-mistake.mp3" controls autoplay></audio>
+    <!--Controls é para aparecer o controle de audio-->
+
+    <audio preload="metadata" controls autoplay loop>
+        <!--Autoplay é proibido pelo google pois o usuario é quem deve escolher se vai ou não tocar audio, então não funciona no Chrome, e para videos funcionaria o autoplay se você tambem usar o muted, para que ela possa tirar o silence se quiser ouvir, no edge funciona normalmente, ou ao menos funcionava 2 anos atrás.-->
+        <!--O padrão é auto, e ele só vai considerar que o site terminou de carregar quando carregar todo o audio, é uma das piores coisas a se fazer no meu site-->
+        <!--Metadata carrega só o nome do arquivo e informações em detalhes como duração, e só vai baixar o resto ao apertar play, logo vai demorar um pouquinho mais para iniciar o audio pois vai baixar.-->
+        <!--None não vai carregar nada até o usuario apertar o play no controle-->
+        <!--Loop a musica fica em loop.-->
+        <source src="Multimidia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="Multimidia/happy-mistake.ogg" type="audio/ogg">
+        <source src="Multimidia/happy-mistake.wav" type="audio/wav">
+        <!--Mesmo que exista compatibilidade com wav é melhor evitar, pois os arquivos wav são muito grandes e pesados.-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio, clique <a href="Multimidia/happy-mistake.mp3">aqui</a> para baixar o arquivo mp3.</p>
+        <!--A tag p nunca sera mostrada, a menos que o navegador não consiga ler audio, se conseguir o controle apenas ficara inativo e não mostrara a tag p, pois o navegador consegue ler audio, mas não o formato  passado, apenas em navegadores MUITO antigos o p seria mostrado.-->
+    </audio>
+    <!--A ordem é importante, vai tentar carregar primeiro o que coloquei em cima, se conseguir ignora o resto.-->
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas Decoradas</title>
+    <style>
+        h1{
+            border: 20px solid black; /*se não for compativel vai mostrar borda preta, para não mostrar nada poderia ao invés de black usar transparent, preciso précolocar uma borda pra servir de base pra personalizar.*/
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 27; /*posso usar shorthand nessa orden*/
+            border-image-repeat: repeat; /*Existe o stretch, que estica a borda.*/
+            /*Para não dar problema com corte posso usar slice 33% e ao inves de repeat por round, mas ai cada quadrado da borda deve ser igual.*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    <!--Primeiro faço a borda no gimp-->
+</body>
+</html>

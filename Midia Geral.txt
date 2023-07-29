@@ -1,0 +1,46 @@
+Adaptação de material para multiplas midias, para tamanhos de tela diferentes.
+
+Sites lentos são muito prejudicados pelo google, não devo usar imagens com tamanho absurdo e dificeis de carregar.
+
+Se o usuario for embora do meu site, o google vai aumentar o bounce rate do meu site, se for muito alto o google 
+para de indicar meu site a outras pessoas, pois o considerara ruim.
+
+para encontrar musicas sem direitos autorais posso ir na biblioteca de áudio do youtube.
+audios grandes ou com qualidade maxima tambem geram arquivos grandes que oculpam muito espaço.
+
+tem muito navegador que não tem compatibilidade determinado formato de audio, nesse caso eu teria que usar outros formatos de 
+audio.
+a tag audio funciona com MP3, WAV e OGG.
+
+para achar videos sem direitos autorais posso usar o Pexels.
+os padrões mais ultilizados e mais suportados em html5 e nos navegadores são os formatos:
+.mp4, .mkv, .webM, .ogv(ogg), os 3 primeiros são os mais populares.
+
+
+O programa gratuito HandBrake serve para converter videos.
+ele le o arquivo original, decodifica para um formato especial para ser usado na web(posso escolher gerar um arquivo compativel
+com vimel ou youtube, selecionando o profile creator na aba web, da pra ver no que funciona passando o mouse por cima) e gera 
+um arquivo bem menor.
+
+arquivos maiores aumentam o custo da hospedagem mensal, logo quanto maior a qualidade maior o custo de hospedagem, se o cliente
+pedir hospedagem local devo evitar, acima de 1080p não hospedar dentro de meu proprio site.
+
+Videos hospedados usando a tag videos podem e vão consumir muito trafego de dados, pois são hospedagem local.
+
+Um jeito simples, gratuito e leve é incorporar videos do proprio youtube no meu site, já que assim não serei eu á hospedar, 
+e não me refiro a pegar videos de outros, sim de criar um canal, postar nele os videos que quero no meu site, e usar a opção
+do youtube de incorporar, que já me gera um codigo pra mostrar o video no meu site, sendo que quem esta hospedando é o youtube.
+vai consumir dados do youtube, não meus.
+
+porem no youtube o que eu upar nele e mostrar no meu site vai ser publico para todos verem, se eu quiser que apenas assinantes
+tenham acesso não é possivel fazer no youtube, mas tem sites de hospedagem especificos para videos que permitem a mim hospedar
+meu video no site deles e limitar para que apenas pessoas assinantes possam ver, como o serviço de hospedagem vimeo.
+o vimeo tem uma qualidade otima mas o algoritmo não é tão bom quanto o do youtube, se sua internet não for tão boa pode dar
+algumas leves travadas, mas tem mais personalização, e dependendo do plano gasto o consumo pode ser ilimitado, e embora tenha
+limite de videos a subir, é em torno de 7tb, que é muita coisa.
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags e Grouping Tags Semanticas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        article > aside{
+            background: rgb(172, 172, 172);
+        }
+        nav{
+            background-color: rgb(94, 94, 94);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!--Como div e span, o header, main e footer são vistos como uma div, porem possuem semantica ao inves de ser varias div com ids nesses nomes, e como possuem semantica se tornam mais agradaveis aos mecanismos de busca e melhoram a organização do site, já que ele vai possuir mais sentido semantico.-->
+    <header> <!--Cabeçalho-->
+        <h1>Meu site</h1>
+        <nav><!--Menu-->
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main> <!--Conteudo principal-->
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, assumenda!</p>
+                <aside><!--Periferico relativo ao artigo como o autor.-->
+                    <p>Artigo escrito por um autor.</p>
+                </aside> 
+                <!--Não é um problema colocar sections dentro dos articles tambem, qualquer grouping tag pode ser colocada dentro de outra.-->
+            </article>
+        </section>
+
+        <section id="noticias">
+
+            
+        </section>
+    </main>
+
+    <footer><!--Rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+
+
+</body>
+</html>

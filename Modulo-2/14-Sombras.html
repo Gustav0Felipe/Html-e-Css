@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+
+        }
+        footer{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 17px; /*O paragrafo dentro tem uma margem de 16px, então esse padding do footer vai vir depois da margem do paragrafo e adicionar 1px, então vai aparecer como 17 de padding no "paragrafo", para resolver isso é só tirar a margem do paragrafo.*/
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        article > aside{
+            background: rgb(172, 172, 172);
+        }
+        nav{
+            background-color: rgb(94, 94, 94);
+            box-shadow: 6px 3px 20px 2px rgba(0, 0, 0, 0.329);
+            /*Deslocamento horizontal vertical espalhamento e sombra.*/
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        } 
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        div{
+            text-align: center;
+        }
+        #botao{
+            text-decoration: none;
+            display: inline-block;
+            /*Display inline só tem margem de esquerda e direita, não dá pra subir e descer*/
+            padding: 5px;
+            border: 2px solid rgb(43, 42, 42);
+            border-radius: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+
+            box-shadow: 6px 3px 20px 2px rgba(54, 54, 54, 0.329);
+        }
+        #botao:hover{
+            box-shadow: inset 6px 3px 20px 2px rgba(54, 54, 54, 0.329), 
+            6px 3px 20px 2px rgba(54, 54, 54, 0.329) ;
+            border: 2px solid rgb(100, 100, 100);
+            color: rgb(100, 100, 100);
+        }
+        #botao{
+            color: black;
+        }
+        #bola{ 
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border: 2px solid rgb(100, 100, 100);
+            border-radius: 50%;
+        }
+        p#teste{
+            margin: auto;
+            border: 2px solid black;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <!--Não devo exagerar nas sombras, não precisa estar claramente visivel, o cerebro vai entender do mesmo jeito,mesmo que a pessoa não perceba conscientemente que há uma sombra ali.-->
+    <!--Sombras funcionam já na shorthand.-->
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+
+    <main> 
+        <section id="assuntos">
+            <article>
+                <h2>Assuntos sobre o brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, assumenda!</p>
+                <aside>
+                    <p>Artigo escrito por um autor.</p>
+                </aside> 
+             
+            </article>
+            <p id="teste">Teste</p>
+            <div>
+                <a href="#" id="botao"> Confirmar
+                </a>
+            </div>
+            
+        </section>
+    </main>
+
+
+    <footer><!--Rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"><p></p></div>
+
+</body>
+</html>
