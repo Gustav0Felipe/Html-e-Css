@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical de caixas.</title>
+    <style>
+        section#container{
+            background-color: purple;
+            background-image: url('Imagens/target001.png');
+            background-size: 100% 100%;
+            position:relative; /*Posicionamento padrão de um box*/
+            height: 95vh;
+            padding: 5px;
+        }
+        article#conteudo{
+            background-color: yellow;
+            background-image: url('Imagens/target001.png');
+            background-size: 100% 100%;
+            height: 200px;
+            width: 400px;
+            position: absolute; /*Quando faço isso posso configurar left e top*/
+            left: 50%; 
+            /*Vai colocar a ponta cima esquerda da div
+            exatamente no centro */
+            top: 50%;
+            transform: translate(-50%, -50%);
+            /*Translate meche no componente, pixeis pra direita e pra baixo.*/
+        }
+
+    </style>
+</head>
+<body>
+
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
