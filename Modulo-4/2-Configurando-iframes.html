@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de IFrame 2</title>
+    <style>
+        iframe{
+            width: 400px;
+            height: 400px; 
+            /*Se eu configuro o tamanho no iframe e na css ao mesmo tempo, a css sobrepoe, é a configuração dela que vai valer.*/
+        }
+    </style>
+</head>
+<body>
+  
+    <!--Nem todos os navegadores de celular tem compatibilidade.-->
+    <!--Tamanho padrão 300x150, primeiro largura depois altura.-->
+    <h1>Testando o uso de um iframe</h1>
+    <p>
+        Acessando o site do
+        <iframe src="https://www.cursoemvideo.com" frameborder="1" height="500" scrolling="no">
+            <!--Scrolling, auto faz com que a rolagem apareça se o conteudo exceder o tamanho do iframe, yes faz a rolagem aparecer mesmo que todo o conteudo caiba dentro do iframe, e no é sem rolagem, possivelmente um parametro obsoleto.-->
+            <!--Frameborder se eu colocar qualquer coisa diferente de 0 ou 1 vai simplesmente por borda, e posso configurar a borda nas CSS tambem.-->
+
+            Essa mensagem na tag do iframe só aparece se o dispositivo não tiver compatibilidade com o iframe.
+        
+        </iframe>
+     
+        
+        
+        
+    CursoEmVideo para aprender a programar.</p>
+
+ 
+    <p>Site do google <iframe src="https://www.google.com.br" frameborder="1">
+        
+    </iframe></p>
+    
+    <p>
+        Repositório do guanabara
+        <iframe src="https://gustavoguanabara.github.io" frameborder="1">
+            
+            <a href="https://gustavoguanabara.github.io" target="_blank">Github Guanabara</a>
+            <!--Se não for compativel vai mostrar um link-->
+        </iframe>
+    </p>
+   
+</body>
+</html>

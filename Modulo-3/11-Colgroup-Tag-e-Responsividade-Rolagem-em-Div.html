@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando colunas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 2000px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .coluna1{
+            background-color: yellow;
+        }
+        .colunas2e3{
+            background-color: aqua;
+        }
+        .coluna3{
+            background-color: blueviolet;
+        }
+        div{
+            overflow-x: auto;
+            /*
+            Se o conteudo da tabela vazar para o lado, a rolagem lateral sera aplicada apenas nela não vai mexer no conteudo base do meu site.
+            
+            
+            */
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium fuga nostrum deserunt voluptates id rem accusamus aliquid alias quo, excepturi quasi enim aperiam repudiandae eum delectus blanditiis dolorem asperiores ullam?
+    Sequi eos, facilis doloremque ipsam veritatis ab mollitia tenetur magni, nihil minima corporis. Est numquam aliquid tempore eum, quia animi provident sit accusamus minima ut nemo ipsa veritatis voluptatum ipsum!
+    Exercitationem id corrupti temporibus, eos commodi voluptatum sit nostrum unde vitae. Placeat delectus accusantium rerum culpa dolores nobis unde nostrum tempora ratione molestias. Temporibus reprehenderit aliquid sit doloremque facilis dolores!</p>
+    <div>
+    <table>
+        <colgroup>
+            <col class="coluna1">
+            <col class="colunas2e3" span="2">
+            <col class="coluna3">
+        </colgroup>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>

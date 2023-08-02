@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            height: 400px;
+            width: 400px;
+            border-collapse: collapse;
+            /*O padrão é separate, as bordas não se tocam.*/
+        }
+        tr{
+            background-color: gray;
+        }
+        td{
+            /*Alinhando conteudo em tabelas.*/
+            /*Alinhamento horizontal: */
+            text-align: left; 
+            /*Alinhamento vertical, funciona muito bem para celulas de uma tabela(td's), valores top, middle e bottom.*/
+            vertical-align: top; 
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr.destaque{
+            background-color: yellow;
+        }
+        td.alerta{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <h1>Primeira tabela</h1>
+    <!--
+        Hierarquia de tabelas (simples)
+        Table = tabela
+            Table rows = as linhas da tabela
+                Table header = cabeçalho de tabela
+                    Table data - dado de tabela
+    -->
+    <table>
+        <tr>
+            <!--Primeira linha da tabela, td é cada dado da linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="destaque">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+            <td class="alerta">A4</td>
+            <td>B4</td>
+            <td class="alerta">C4</td>
+            Texto fora da hierarquia.
+            <tr class="destaque">Texto que não obedece a hierarquia novamente, nem é reconhecido como tr então não vai aplicar as CSS.</tr>
+        </tr>
+        <!--Se eu não obedecer a hierarquia, o conteudo pode aparecer antes ou depois da tabela.-->
+    </table>
+    
+</body>
+</html>

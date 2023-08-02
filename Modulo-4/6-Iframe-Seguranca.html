@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem et quaerat nihil, facere fugiat ipsa amet assumenda nobis magnam nesciunt! Ad voluptatem dolorum labore quod ratione beatae quibusdam dolore aspernatur.</p>
+
+    <!--Sandbox Bloqueia todo e qualquer acesso que outros sites tentem fazer, não captura mais nenhuma informação.-->
+    <iframe src="6.1-Iframes-Formulario-Teste.html" frameborder="1" sandbox="sandbox" referrerpolicy="no-referrer"><!--Politica padrão é no-referrer-when-downgrade, para tornar o que estiver dentro do iframe mais limitado, posso usar no-referrer, os sites capturam dados de navegação para mostrar propagandas, quando coloco o no referrer, eu indico que o conteudo que esta dentro do iframe não vai coletar nenhum tipo de informação do usuario, esses 2 parametros são o máximo de segurança. -->
+        Seu navegador não é compativel com iframes.
+    </iframe>
+
+
+    <!--Permite conteudo da mesma origem, formularios e scripts, exceto essas vai aplicar todas configurações de segurança.-->
+    <iframe src="6.1-Iframes-Formulario-Teste.html" frameborder="1" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        Seu navegador não é compativel com iframes.
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eveniet pariatur voluptatem facere ipsum illo doloribus nobis laboriosam nihil, atque recusandae omnis esse, quos soluta! Quod quasi vitae amet omnis?</p>
+</body>
+</html>

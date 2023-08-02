@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+/*Importei 2 fontes*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --fontes1: Verdana, Geneva, Tahoma, sans-serif;
+    --fontes2: 'Passion One', cursive;
+    --fontes3: 'Sriracha', cursive;
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fontes1);
+}
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+header > h1{
+    padding-top: 50px;
+    font-family: var(--fontes2);
+    font-variant: small-caps; 
+    font-size: 20vw;
+    /*Tudo em maiusculo mas cada inicio de palavra maior.*/
+    /*text-transform: uppercase; Tudo em maiuscula.*/
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    
+}
+section{
+    font-family: var(--fontes3);
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+section > p{
+    padding-bottom: 2em;
+
+}
+section.normal{
+    color: black;
+    background-color: white;
+}
+section.imagem{
+    color: white;
+    background-color: rgb(51, 51, 51);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.719);
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.555);
+    display: inline-block; 
+    /*Vai transformar em uma caixa que se adapta ao tamanho do conteudo, se a fonte aumentar a caixa aumenta.*/
+    padding: 5px; 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.836);
+}
+section#img01{
+    background-image: url('Cordel/imagens/background001.jpg');
+    background-position: right center;
+}
+section#img02{
+    background-image: url('Cordel/imagens/background002.jpg'); 
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}

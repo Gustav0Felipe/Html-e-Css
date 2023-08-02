@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            height: 400px;
+            width: 100vw;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestias deserunt id nostrum illo corrupti cum nisi, a esse dolorem ullam facere perspiciatis cumque molestiae temporibus accusantium quibusdam, magni hic.</p>
+
+    <ul>
+        <li><a href="1-iframes.html" target="frame">Primeira página</a></li>
+        <li><a href="2-Configurando-iframes.html" target="frame">Segunda página</a></li>
+        <li><a href="3-iframes-Conteudo-Local.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rerum nulla sequi mollitia, adipisci reprehenderit illo pariatur incidunt cumque tempora odio veritatis consectetur, eaque voluptatibus quo et praesentium blanditiis qui!</p>
+
+    <!--Dentro do srcdoc posso colocar tags html, se eu quisesse usar <img> poderia tambem.-->
+    <iframe srcdoc="<h1> escolha uma das opções acima</h1>" id="tela" name="frame">Infelizmente seu navegador não é compativel com iframes.</iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque qui est nulla tenetur quia porro veniam a. Illo laudantium harum neque fuga quia! Enim ea earum rem architecto libero ut!
+    Obcaecati quidem quas, ducimus unde iste cupiditate cum id libero totam laborum, ipsum nobis? Iusto, ad, exercitationem rem, numquam dignissimos beatae delectus maiores earum temporibus quidem accusamus facilis quia architecto!</p>
+
+</body>
+</html>
