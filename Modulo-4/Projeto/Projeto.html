@@ -5,9 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Redes Sociais, celulas usando iframe.</title>
     <link rel="shortcut icon" href="pacote-d013/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-        
+    <main>
+        <section id="telefone">
+            <iframe src="Home.html" name="tela" id="tela" frameborder="0">
+                Navegador não compativel.
+            </iframe>
+        </section>
+        <section id="redes-sociais">
+            <a href="Home.html" target="tela"><img src="pacote-d013/imagens/logo-home.jpg" alt="Home"></a><br>
+            <a href="Youtube.html" target="tela"><img src="pacote-d013/imagens/logo-youtube.jpg" alt="Youtube"></a><br>
+            <a href="Github.html" target="tela"><img src="pacote-d013/imagens/logo-github.jpg" alt="GitHub"></a><br>
+            <a href="Instagram.html" target="tela"><img src="pacote-d013/imagens/logo-instagram.jpg" alt="Instagram"></a><br>
+            <a href="Twitter.html" target="tela"><img src="pacote-d013/imagens/logo-twitter.jpg" alt="Twitter"></a><br>
+            <a href="Facebook.html" target="tela"><img src="pacote-d013/imagens/logo-facebook.jpg" alt="Facebook"></a>
+        </section>
+    </main>
 </body>
 </html>
+
+<!--
+    Tentativa propria.    
+    
+<div id="ordem">
+    <main>
+        <iframe src="Home.html" frameborder="1" name="frame" scrolling="lateral"></iframe>
+
+    </main> 
+   
+    <div id="logos">
+    <a href="Projeto.html"><img src="pacote-d013/imagens/logo-home.jpg" class="tela" ></a><br>
+    <img src="pacote-d013/imagens/logo-youtube.jpg" class="tela"><br>
+    <img src="pacote-d013/imagens/logo-github.jpg" class="tela"><br>
+    <img src="pacote-d013/imagens/logo-instagram.jpg" class="tela"><br>
+    <img src="pacote-d013/imagens/logo-twitter.jpg" class="tela"><br>
+    <a href="Facebook.html" target="frame"><img src="pacote-d013/imagens/logo-facebook.jpg" class="tela"></a><br>
+    </div>
+</div>
+
+
+
+
+CSS 
+body{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: rgb(247, 229, 203);
+    background-image: url('pacote-d013/imagens/fundo-madeira.jpg');
+    background-position: center center;
+    background-size: 100% 100%;
+}
+main{
+   display: inline-block;
+   background-image: url('pacote-d013/imagens/frame-iphone.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-image:  url('pacote-d013/imagens/frame-iphone.png');
+   margin-top: 50px;
+   width: 311px;
+   height: 627px;
+}
+iframe{
+    height: 80%;
+    width: 90%;
+    margin-top: 73px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+img{
+    margin: 0px;
+    width: 100%;
+}
+img.tela{
+    width: 70px;
+    border-radius: 50%;
+}
+a.acesse{
+    display: block; 
+    width: 94vw;
+    padding: 20px 0px;
+    background-color: rgb(153, 1, 1);
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+a.acesse:visited{
+    background-color: rgb(153, 1, 1);
+}
+a.acesse:hover{
+    background-image: none;
+    background-color: rgb(241, 2, 2);
+}
+div#ordem{
+    display: inline-block;
+    text-align: center;
+    
+}
+div#logos{
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+-->
